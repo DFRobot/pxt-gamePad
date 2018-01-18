@@ -17,9 +17,8 @@
 	"gamePad.Led.OFF|block": "灭",
 	"gamePad.Led.ON|block": "亮",
 	"gamePad.vibratorMotor|block": "震动电机 开关|%index|",
-	"gamePad.vibratorMotorIntensity|block": "震动电机 强度|%index|",
-	"gamePad.keyState|block": "检测按钮|%button|是否被按下?",
-	"gamePad.onEvent|block": "选择按钮%button|触发方式%event",
-	"gamePad.vibratorMotorSpeed|block": "震动电机 速度|%degree",
-	"gamePad.led|block": "LED 开关 |%index|"
+	"gamePad.keyState|block": "当按钮|%button|被按下时",
+	"gamePad.onEvent|block": "当按钮%button|被%event时",
+	"gamePad.vibratorMotorSpeed|block": "震动电机 强度|%degree",
+	"gamePad.led|block": "LED|%index|"
 }

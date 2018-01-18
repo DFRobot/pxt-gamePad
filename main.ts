@@ -85,7 +85,7 @@ namespace gamePad {
      * To scan a button whether be triggered : return '1' if pressed; return'0' if not.
      */
     //% weight=70
-    //% blockId=gamePad_keyState block="gamerpad:bit|%button|is pressed"
+    //% blockId=gamePad_keyState block="button|%button|is pressed"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     export function keyState(button: GamerBitPin): boolean {
         if (!PIN_INIT) { 
@@ -103,7 +103,7 @@ namespace gamePad {
      */
     //% weight=60
     //% blockGap=50
-    //% blockId=gamePad_onEvent block="gamerpad:bit on %button|%event"
+    //% blockId=gamePad_onEvent block="on button|%button|is %event"
     //% button.fieldEditor="gridpicker" button.fieldOptions.columns=3
     //% event.fieldEditor="gridpicker" event.fieldOptions.columns=3
     export function onEvent(button: GamerBitPin, event: GamerBitEvent, handler: Action) {
@@ -126,22 +126,11 @@ namespace gamePad {
     }
 
     /**
-     * Vibration motor strength setting, weak, medium, strong, stop four options.
-     */
-    //% weight=40
-    //% blockId=gamePad_vibratorMotorIntensity block="Vibrator motor intensity|%index|"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=1
-    export function vibratorMotorIntensity(index: Intensity): void {
-        vibratorMotorSpeed(<number>index);
-        return;
-    }
-
-    /**
      * Vibration motor speed setting, adjustable range 0~255.
      */
     //% weight=30
     //% blockGap=50
-    //% blockId=gamePad_vibratorMotorSpeed block="Vibrator motor speed|%degree"
+    //% blockId=gamePad_vibratorMotorSpeed block="Vibrator motor intensity|%degree"
     //% degree.min=0 degree.max=255
     export function vibratorMotorSpeed(degree: number): void {
         if (!PIN_INIT) { 
@@ -156,7 +145,7 @@ namespace gamePad {
      * LED indicator light switch.
      */
     //% weight=20
-    //% blockId=gamePad_led block="LED switch|%index|"
+    //% blockId=gamePad_led block="LED|%index|"
     //% index.fieldEditor="gridpicker" index.fieldOptions.columns=1
     export function led(index: Led): void {
         if (!PIN_INIT) { 
