@@ -1,6 +1,6 @@
 # gamePad
 
-This library is used to control game controllers.
+This library is DFRobot gamer:bit provides the game handle control function.
 
 ## TODO
 
@@ -22,5 +22,5 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 ```package
-gamePad=github:L-eeX/pxt-gamePad
+gamePad=github:DFRobot/pxt-gamePad
 ```
