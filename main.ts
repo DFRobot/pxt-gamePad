@@ -22,9 +22,9 @@ enum GamerBitPin {
  */
 //%
 enum GamerBitEvent {
-    //% block="down"
+    //% block="pressed"
     Down = DAL.MICROBIT_BUTTON_EVT_DOWN,
-    //% block="up"
+    //% block="released"
     Up = DAL.MICROBIT_BUTTON_EVT_UP,
     //% block="click"
     Click = DAL.MICROBIT_BUTTON_EVT_CLICK,
