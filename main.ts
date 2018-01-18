@@ -119,7 +119,7 @@ namespace gamePad {
      */
     //% weight=50
     //% blockId=gamePad_vibratorMotor block="Vibrator motor switch|%index|"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=1
+    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function vibratorMotor(index: Vibrator): void {
         vibratorMotorSpeed(<number>index);
         return;
@@ -146,7 +146,7 @@ namespace gamePad {
      */
     //% weight=20
     //% blockId=gamePad_led block="LED|%index|"
-    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=1
+    //% index.fieldEditor="gridpicker" index.fieldOptions.columns=2
     export function led(index: Led): void {
         if (!PIN_INIT) { 
             PinInit();
