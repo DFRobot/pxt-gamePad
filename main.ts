@@ -3,17 +3,17 @@
  */
 //%
 enum GamerBitPin {
-    //% block="P1 (X button)"
+    //% block="X button"
     P1 = <number>DAL.MICROBIT_ID_IO_P1,
-    //% block="P2 (Y button)"
+    //% block="Y button"
     P2 = <number>DAL.MICROBIT_ID_IO_P2,
-    //% block="P8 (D-PAD up)"
+    //% block="D-PAD up"
     P8 = <number>DAL.MICROBIT_ID_IO_P8,
-    //% block="P13 (D-PAD down)"
+    //% block="D-PAD down"
     P13 = <number>DAL.MICROBIT_ID_IO_P13,
-    //% block="P14 (D-PAD left)"
+    //% block="D-PAD left"
     P14 = <number>DAL.MICROBIT_ID_IO_P14,
-    //% block="P15 (D-PAD right)"
+    //% block="D-PAD right"
     P15 = <number>DAL.MICROBIT_ID_IO_P15,
 }
 
@@ -33,7 +33,7 @@ enum GamerBitEvent {
 /**
  * Functions for DFRobot gamer:bit Players.
  */
-//% weight=10 color=#DF6721 icon="\uf286" block="gamePad"
+//% weight=10 color=#DF6721 icon="\uf11b" block="gamePad"
 namespace gamePad {
     let PIN_INIT = 0;
     
