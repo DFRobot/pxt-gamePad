@@ -1,36 +1,7 @@
 # gamePad
 
-This library is DFRobot gamer:bit provides the game handle control function.
-
-## TODO
-
-- [ ] Add a reference for your blocks here
-- [ ] Add "icon.png" image (300x200) in the root folder
-- [ ] Add "- beta" to the GitHub project description if you are still iterating it.
-- [ ] Turn on your automated build on https://travis-ci.org
-- [ ] Use "pxt bump" to create a tagged release on GitHub
-- [ ] Get your package reviewed and approved https://makecode.microbit.org/packages/approval
-
-Read more at https://makecode.microbit.org/packages/build-your-own
-
-## License
-
-MIT
-
-## Supported targets
-
-* for PXT/microbit
-(The metadata above is needed for package search.)
-```package
-gamePad=github:DFRobot/pxt-gamePad
-```
-
-
-
-
-# DF-Driver
-
-Micro:bit motor drive expansion board.
+Micro:bit game handle expansion board.
+![image](http://wiki.dfrobot.com.cn/images/9/98/DFR0536%E5%A4%96%E5%BD%A2%E5%9B%BE.png)
 ---------------------------------------------------------
 
 ## Table of Contents
@@ -80,5 +51,5 @@ MIT
 * for PXT/microbit
 (The metadata above is needed for package search.)
 ```package
-gamePad=github:DFRobot/pxt-motor
+gamePad=github:DFRobot/pxt-gamePad
 ```
