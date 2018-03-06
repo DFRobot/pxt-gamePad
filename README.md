@@ -6,9 +6,13 @@ Micro:bit game handle expansion board.
 
 ## Table of Contents
 
+* [URL](#url)
 * [Summary](#summary)
-* [Blocks](#Blocks)
-* [License](#License)
+* [Blocks](#blocks)
+* [License](#license)
+
+## URL
+project URL:  ```https://github.com/DFRobot/pxt-gamePad```
 
 ## Summary
 
