@@ -1,3 +1,18 @@
+/*！
+ * @file gamePad/main.ts
+ * @brief DFRobot's gamer pad makecode library.
+ * @n [Get the module here](http://www.dfrobot.com.cn/goods-1577.html)
+ * @n This is the microbit dedicated handle library, which provides an API to 
+ * control eight buttons, including an led indicator light and a vibrating motor.
+ *
+ * @copyright	[DFRobot](http://www.dfrobot.com), 2016
+ * @copyright	GNU Lesser General Public License
+ *
+ * @author [email](1035868977@qq.com)
+ * @version  V1.0
+ * @date  2018-03-20
+ */
+
 /**
  * User Buttons for DFRobot gamer:bit Players.
  */

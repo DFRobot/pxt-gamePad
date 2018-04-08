@@ -39,7 +39,7 @@ The programming platform supports makecode graphical programming and python prog
 
 ## License
 
-MIT
+GNU
 
 ## Supported targets
 
