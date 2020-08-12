@@ -11,7 +11,8 @@
         "README.md",
         "gamerpad.cpp",
         "main.ts",
-        "_locales/zh/gamePad-strings.json"
+        "_locales/zh-cn/gamePad-strings.json",
+        "_locales/zh-tw/gamePad-strings.json"
     ],
     "testFiles": [
         "test.ts"
