@@ -19,6 +19,6 @@
 	"gamePad.vibratorMotor|block": "Vibrations-Motor|%index|",
 	"gamePad.keyState|block": "Knopf|%button|ist gedrückt",
 	"gamePad.onEvent|block": "Wenn|%button|被%event|ist",
-	"gamePad.vibratorMotorSpeed|block": Vibrations-Motor Stärke|%degree",
+	"gamePad.vibratorMotorSpeed|block": "Vibrations-Motor Stärke|%degree",
 	"gamePad.led|block": "LED|%index|"
 }
